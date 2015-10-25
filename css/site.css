@@ -1,0 +1,83 @@
+body  {
+	font-family: Arial;
+	font-size: 24px;
+	color: #0c06fe;
+	width:1350;
+	margin:0px;
+}
+
+#main{
+	width:300px;
+	height:700px;
+	float:left;
+	position:fixed;
+	background-color:#FFFFFF;
+}
+	
+a {
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+    color: #0c06fe;
+}
+
+
+nav > ul { list-style-type:none; padding:50;margin:50;}
+
+#projects{
+	/*position: absolute;
+	left: 400px;
+	top: 10px;*/
+	margin-left:322px;
+	margin-top:18px;
+	font-size:18px;
+	font-weight:bold;
+	color:#2e2d2d;
+	float:left;
+}
+
+.img-container{
+	overflow: auto;
+	width:1000px;
+}
+
+.figure-class{
+	float:left;
+	margin-right:0px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size:14px;
+	color:#0c06fe;
+	text-align: center;
+	
+}
+
+.project-image{
+	max-height: 100%;
+	width: auto;
+}
+
+
+
+.pace {
+  pointer-events: none;
+  user-select: none;
+}
+.pace-inactive {
+  display: none;
+}
+.pace .pace-progress {
+  background: #f87f3f;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}
+.pace-running .demo-content {
+  opacity: 0.5;
+}
+.pace-running figure {
+  pointer-events: none;
+}
