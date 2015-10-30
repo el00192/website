@@ -39,6 +39,7 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 .img-container{
 	overflow: auto;
 	width:1000px;
+	margin-bottom:40px;
 }
 
 .figure-class{
@@ -80,4 +81,10 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 }
 .pace-running figure {
   pointer-events: none;
+}
+
+#flash{
+	margin-left:20px;
+	width:280px;
+	height:200px;
 }
