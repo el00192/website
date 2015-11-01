@@ -2,7 +2,7 @@
     var $pswp = $('.pswp')[0];
     var image = [];
 
-    $('.img-container').each( function() {
+    $('.gallery-container').each( function() {
         var $pic     = $(this),
             getItems = function() {
                 var items = [];

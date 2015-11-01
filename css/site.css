@@ -53,6 +53,10 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 	
 }
 
+.no-display{
+	display: none;
+}
+
 .project-image{
 	max-height: 100%;
 	width: auto;
