@@ -80,6 +80,17 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
   width: 100%;
   height: 2px;
 }
+
+.pswp__caption__center {
+  text-align: left;
+  max-width: 614px;
+  margin: 0 auto;
+  font-size: 13px;
+  padding: 10px;
+  line-height: 20px;
+  color: #CCC;
+  }
+  
 .pace-running .demo-content {
   opacity: 0.5;
 }
