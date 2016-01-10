@@ -8,7 +8,7 @@
                 var items = [];
                 $pic.find('a').each(function() {
 					var anchorEl = $(this);
-                    var $href   = anchorEl.attr('href'),
+					var $href   = anchorEl.attr('href'),
                         $size   = anchorEl.data('size').split('x'),
                         $width  = $size[0],
                         $height = $size[1];
@@ -18,13 +18,10 @@
                         w   : $width,
                         h   : $height
                     }
-					
-					console.log(anchorEl.parentNode);
-					// <figcaption> content
-					if(anchorEl.parent().children().length > 2) {
-						item.title = anchorEl.parent().children()[2].innerHTML; 
+					// .description content
+					if (anchorEl.parent().children(".description").length > 0) {
+						item.title = anchorEl.parent().children(".description")[0].innerHTML; 
 					}
-					
                     items.push(item);
                 });
                 return items;

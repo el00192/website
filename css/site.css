@@ -6,6 +6,11 @@ body  {
 	margin:0px;
 }
 
+#logo{
+	padding-top:15px;
+	padding-left:10px;
+}
+
 #main{
 	width:300px;
 	height:700px;
@@ -36,6 +41,66 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 	float:left;
 }
 
+#about{
+	position: fixed;
+	left: 200px;
+	top: 60px;
+	margin-left:322px;
+	margin-top:30px;
+	font-size:14px;
+	font-weight:bold;
+	color:#0c06fe;
+	float:left;
+	opacity:1.0;
+}
+
+#about2{
+	position:fixed;
+	margin-left:15px;
+	margin-top:30px;
+}
+
+#logo2{
+	position:absolute;
+	margin-top:10px;
+	opacity:0.5;
+}
+
+#contact{
+	position:fixed;
+	left: 200px;
+	top: 60px;
+	margin-left:360px;
+	margin-top:200px;
+	font-size:16px;
+	font-weight:bold;
+	color:#0c06fe;
+	float:left;
+	
+}
+
+#construction{
+	font-size:12px;
+	color:#0c06fe;
+}
+
+/*#telephone{
+	position:fixed;
+	left: 200px;
+	top: 97px;
+	margin-left:390px;
+	margin-top:180px;
+	font-size:16px;
+	font-weight:bold;
+	color:#2e2d2d;
+	float:left;
+	text-indent:29px;
+}*/
+
+figcaption{
+	height:25px;
+}
+
 .img-container{
 	overflow: auto;
 	width:1000px;
@@ -50,7 +115,6 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 	font-size:14px;
 	color:#0c06fe;
 	text-align: center;
-	
 }
 
 .no-display{
@@ -61,7 +125,6 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 	max-height: 100%;
 	width: auto;
 }
-
 
 
 .pace {
@@ -82,7 +145,7 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 }
 
 .pswp__caption__center {
-  text-align: left;
+  text-align: center;
   max-width: 614px;
   margin: 0 auto;
   font-size: 13px;
