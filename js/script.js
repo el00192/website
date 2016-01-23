@@ -6,7 +6,7 @@
         var $pic     = $(this),
             getItems = function() {
                 var items = [];
-                $pic.find('a').each(function() {
+                $pic.find('.gallery-item').each(function() {
 					var anchorEl = $(this);
 					var $href   = anchorEl.attr('href'),
                         $size   = anchorEl.data('size').split('x'),
@@ -19,8 +19,8 @@
                         h   : $height
                     }
 					// .description content
-					if (anchorEl.parent().children(".description").length > 0) {
-						item.title = anchorEl.parent().children(".description")[0].innerHTML; 
+					if (anchorEl.parent().children('.description').length > 0) {
+						item.title = anchorEl.parent().children('.description')[0].innerHTML; 
 					}
                     items.push(item);
                 });
