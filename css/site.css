@@ -84,7 +84,7 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 	color:#0c06fe;
 }
 
-/*#telephone{
+#telephone{
 	position:fixed;
 	left: 200px;
 	top: 97px;
@@ -95,10 +95,13 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 	color:#2e2d2d;
 	float:left;
 	text-indent:29px;
-}*/
+}
 
 figcaption{
-	height:25px;
+	height:0px;
+	font-weight:bold;
+	color:#2e2d2d;
+	font-size:12px;
 }
 
 .img-container{
@@ -135,7 +138,7 @@ figcaption{
   display: none;
 }
 .pace .pace-progress {
-  background: #f87f3f;
+  background: #0c06fe;
   position: fixed;
   z-index: 2000;
   top: 0;
@@ -146,7 +149,7 @@ figcaption{
 
 .pswp__caption__center {
   text-align: center;
-  max-width: 614px;
+  max-width: 776px;
   margin: 0 auto;
   font-size: 13px;
   padding: 10px;
