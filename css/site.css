@@ -105,6 +105,11 @@ figcaption{
 	margin-top:5px;
 }
 
+#swiffycontainer{
+	position:fixed;
+	bottom:-21px;
+}
+
 .img-container{
 	overflow: auto;
 	width:1000px;
