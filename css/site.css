@@ -2,7 +2,7 @@ body  {
 	font-family: Arial;
 	font-size: 24px;
 	color: #0c06fe;
-	width:1350;
+	width:1349px;
 	margin:0px;
 }
 
@@ -95,6 +95,14 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 	color:#2e2d2d;
 	float:left;
 	text-indent:29px;
+}
+
+#licence{
+	font-size: 9px;
+	margin-left:41px;
+	margin-top:182px;
+	color:#2e2d2d;
+	
 }
 
 figcaption{
