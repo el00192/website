@@ -37,9 +37,10 @@
         $pic.on('click', 'figure', function(event) {
             event.preventDefault();
             
-            var $index = $(this).index();
+            //var $index = $(this).index();
             var options = {
-                index: $index,
+                //index: $index,
+				index: 0,
                 bgOpacity: 0.7,
                 showHideOpacity: true
             }
