@@ -41,7 +41,7 @@
             var options = {
                 //index: $index,
 				index: 0,
-                bgOpacity: 0.7,
+                bgOpacity: 1,
                 showHideOpacity: true
             }
 

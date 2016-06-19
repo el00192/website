@@ -114,8 +114,7 @@ figcaption{
 }
 
 #swiffycontainer{
-	position:fixed;
-	bottom:-21px;
+	float:right;
 }
 
 .img-container{
@@ -137,7 +136,7 @@ figcaption{
 
 .project-image{
 	max-height: 100%;
-	width: auto;
+	/*width: auto;*/
 }
 
 
@@ -165,8 +164,12 @@ figcaption{
   font-size: 13px;
   padding: 10px;
   line-height: 20px;
-  color: #CCC;
+  color: #FFFFFF;
   }
+  
+.pswp__bg{
+	background: rgba(0,0,0,0.7);
+}
   
 .pace-running .demo-content {
   opacity: 0.5;
@@ -180,3 +183,100 @@ figcaption{
 	width:280px;
 	height:200px;
 }
+
+
+.overlay {
+	position:relative;
+	height:200px;
+	width:200px;
+	overflow:hidden;
+}
+
+
+span.text-content {
+  background: rgba(98,98,98,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 200px;
+  width: 200px;
+  position:absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+  z-index:10;
+  
+}
+
+span.text-content span {
+  display: table-cell;
+  vertical-align: middle;
+  font-size:14px;
+  font-weight:bold;
+  
+}
+
+.figure-class:hover span.text-content {
+  opacity: 1;
+}
+
+/* First make sure the video thumbnail images are responsive. 
+img {
+      max-width: 100%;
+      height: auto;
+}*/
+
+  /* 
+  This is the starting grid for each video with thumbnails 5 across for the largest screen size.
+  It's important to use percentages or there may be gaps on the right side of the page. 
+  */
+.video {
+    background: #fff;
+    /*padding-bottom: 20px;*/
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);8*/
+    /*width: 18%;*/ /* Thumbnails 5 across */
+    /*margin: 1%;*/
+    float: left;
+}
+
+
+   /* These keep the height of each video consistent between YouTube and Vimeo.
+   Each can have thumbnail sizes that vary by 1px and are likely break your layout. */
+/*.video figure {
+    height: 0;
+    padding-bottom: 60%;
+}*/
+ 
+
+/* Media Queries - This is the responsive grid. */
+/*
+@media (max-width: 1366px) {
+   .video {
+      width: 24%; 
+   }
+}
+
+@media (max-width: 1024px) {
+    .video {
+      width: 31.333%; 
+    }
+}
+  
+@media (max-width: 600px) {
+    .video {
+      width: 48%; 
+    }
+}
+
+@media (max-width: 360px) {
+    .video {
+      display: block;
+      width: 96%; 
+      margin: 2%; 
+      float: none;
+    }
+}
+*/
