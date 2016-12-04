@@ -158,9 +158,9 @@ figcaption{
 }
 
 .pswp__caption__center {
-  text-align: center;
+  text-align: left;
   max-width: 776px;
-  margin: 0 auto;
+  margin: auto;
   font-size: 13px;
   padding: 10px;
   line-height: 20px;
