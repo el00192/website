@@ -9,6 +9,7 @@ body  {
 #logo{
 	padding-top:15px;
 	padding-left:10px;
+	opacity:0.9;
 }
 
 #main{
@@ -55,11 +56,11 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 }
 
 #about2{
-	position:relative;
-	left: 439px;
-	top: 90px;
+	position:fixed;
 	margin-left:15px;
-	margin-top:20px;
+	margin-top:30px;
+	left: 526px;
+	top: 124px;
 	margin-bottom:30px;
 	font-size:14px;
 	font-weight:bold;
@@ -77,12 +78,13 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 	position:fixed;
 	left: 200px;
 	top: 60px;
-	margin-left:360px;
+	margin-left:356px;
 	margin-top:200px;
 	font-size:16px;
 	font-weight:bold;
 	color:#0c06fe;
 	float:left;
+	line-height:133%;
 	
 }
 
@@ -126,13 +128,10 @@ figcaption{
 
 #socialmedia{
 	position:fixed;
-	left: 200px;
-	top: 60px;
+	left: 284px;
+	top: 112px;
 	margin-left:360px;
 	margin-top:200px;
-	font-size:16px;
-	font-weight:bold;
-	color:#0c06fe;
 	float:left;
 }
 
