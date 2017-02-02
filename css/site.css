@@ -56,7 +56,9 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 }
 
 #about2{
-	position:fixed;
+	position:relative;
+	left: 439px;
+	top: 90px;
 	margin-left:15px;
 	margin-top:30px;
 	left: 526px;
