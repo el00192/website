@@ -55,6 +55,14 @@ nav > ul { list-style-type:none; padding:50;margin:50;}
 	opacity:1.0;
 }
 
+#photo{
+	position:relative;
+	left: 630px;
+	top: 122px;
+	opacity:0.8;
+	width: 717px;
+}
+
 #about2{
 	position:relative;
 	left: 439px;
